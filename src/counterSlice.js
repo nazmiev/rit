@@ -4,8 +4,6 @@ const initialState = {
   value: 0,
 }
 
-var button = document.querySelector('button')
-
 export const counterSlice = createSlice({
   name: 'counter',
   initialState,
